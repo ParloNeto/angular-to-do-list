@@ -29,3 +29,5 @@ Bem-vindo ao Angular To-Do List, uma aplicação simples e intuitiva desenvolvid
 
 4. **Armazenamento Local:**
    - As tarefas são salvas automaticamente no armazenamento local do navegador. Não há risco de perder suas tarefas, mesmo após fechar o navegador.
+
+<h1>https://parloneto.github.io/angular-to-do-list/browser/</h1>
