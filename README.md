@@ -1,27 +1,31 @@
-# AngularListaDeTarefas
+# Angular To-Do List
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+Bem-vindo ao Angular To-Do List, uma aplicação simples e intuitiva desenvolvida em Angular para ajudá-lo a gerenciar suas tarefas diárias de forma eficiente. Esta aplicação utiliza as principais funcionalidades de input e output do Angular, permitindo a criação, conclusão e exclusão de tarefas de maneira fácil e rápida.
 
-## Development server
+## Funcionalidades Principais
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. **Adição de Tarefas:**
+   - Ao utilizar a caixa de texto na parte superior da página, você pode adicionar novas tarefas à sua lista simplesmente pressionando "Enter" ou clicando no ícone ao lado. A tarefa será automaticamente marcada como pendente.
 
-## Code scaffolding
+2. **Conclusão de Tarefas:**
+   - Clique em uma tarefa para marcá-la como concluída. Há uma divisão clara das tarefas pendentes e as concluídas.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+3. **Exclusão de Tarefas:**
+   - Remova uma tarefa específica clicando no ícone de 'X' ao lado dela. Se preferir, há também a opção de excluir todas as tarefas de uma vez ao footer da página, proporcionando flexibilidade no gerenciamento de suas tarefas.
 
-## Build
+4. **Armazenamento Local:**
+   - As tarefas são automaticamente salvas no armazenamento local do navegador. Isso significa que suas listas persistirão mesmo após fechar o navegador, permitindo que você retome suas atividades exatamente onde parou.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Instruções de Uso
 
-## Running unit tests
+1. **Adição de Tarefas:**
+   - Insira o texto da tarefa na caixa de texto e pressione "Enter" ou ícone ao lado para adicionar a tarefa à lista.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. **Conclusão de Tarefas:**
+   - Clique na tarefa para marcá-la como concluída. Uma ícone verde aparecerá ao lado esquerdo da tarefa concluída.
 
-## Running end-to-end tests
+3. **Exclusão de Tarefas:**
+   - Para excluir uma tarefa específica, clique no ícone de 'X' ao lado dela. Se desejar excluir todas as tarefas, use a opção "Deletar todos os items" no footer da aplicação.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+4. **Armazenamento Local:**
+   - As tarefas são salvas automaticamente no armazenamento local do navegador. Não há risco de perder suas tarefas, mesmo após fechar o navegador.
